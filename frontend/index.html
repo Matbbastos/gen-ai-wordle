@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordle Game</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Wordle</h1>
+        <nav>
+            <a href="#" class="stats-link">Stats</a>
+        </nav>
+    </header>
+    <main>
+        <section class="landing-page">
+            <h2>Welcome to Wordle!</h2>
+            <div class="rules">
+                <h3>Rules</h3>
+                <ul>
+                    <li>Guess the WORDLE in 6 tries.</li>
+                    <li>Each guess must be a valid 5-letter word.</li>
+                    <li>The color of the tiles will change to show how close your guess was to the word.</li>
+                </ul>
+            </div>
+            <div class="start-game">
+                <a href="game.html" class="btn">Start Game</a>
+            </div>
+        </section>
+        <section class="stats-modal" id="stats-modal">
+            <!-- Stats modal content will be dynamically generated here -->
+        </section>
+    </main>
+    <footer>
+        &copy; EPAM 2024
+    </footer>
+    <script type="module" src="assets/js/main.js"></script>
+</body>
+</html>
